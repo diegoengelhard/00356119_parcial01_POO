@@ -3,25 +3,25 @@ package com.DER.x00356119;
 import java.awt.geom.AffineTransform;
 
 public class CalculadoraImpuestos {
-    private double totalRenta, totalISSS, totalAFP;
+    private static double totalRenta, totalISSS, totalAFP;
 
     private CalculadoraImpuestos() {}
 
-    public double calcularPago(Empleado unEmpleado){
+    public static double calcularPago(Empleado unEmpleado){
         double Renta = 0, ISSS = 0, AFP = 0, pagoEmpleado = 0, restante = 0;
 
         if(unEmpleado instanceof ServicioProfesional){
             Renta = 0.1 * unEmpleado.getSalario();
-            this.totalRenta += Renta;
+            totalRenta += Renta;
             pagoEmpleado = unEmpleado.getSalario() - Renta;
             return pagoEmpleado;
         }
         else if(unEmpleado instanceof PlazaFIja){
             AFP = 0.0625 * unEmpleado.getSalario();
-            this.totalAFP += AFP;
+            totalAFP += AFP;
 
             ISSS = 0.03 * unEmpleado.getSalario();
-            this.totalISSS += ISSS;
+            totalISSS += ISSS;
 
             restante = unEmpleado.getSalario() - AFP - ISSS;
 
@@ -34,7 +34,7 @@ public class CalculadoraImpuestos {
             else if(restante >= 2038.11)
                 Renta = 0.3 * (restante - 2038.10) + 288.57;
 
-            this.totalRenta += Renta;
+            totalRenta += Renta;
             pagoEmpleado = restante - Renta;
 
             return pagoEmpleado;
@@ -43,7 +43,7 @@ public class CalculadoraImpuestos {
             return 0;
     }
 
-    public String mostrarTotales() {
+    public static String mostrarTotales() {
         return "Datos Totales{" +
                 "totalRenta=" + totalRenta +
                 ", totalISSS=" + totalISSS +
