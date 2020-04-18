@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85792452-8a62-452c-a04e-06b23bc0b979" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/CalculadoraImpuestos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/CalculadoraImpuestos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/Empleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/Empleado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/PlazaFIja.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/PlazaFIja.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/ServicioProfesional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Parcial01/com/DER/x00356119/ServicioProfesional.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DER/x00356119/CalculadoraImpuestos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DER/x00356119/CalculadoraImpuestos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DER/x00356119/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DER/x00356119/Empleado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/DER/x00356119/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DER/x00356119/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DER/x00356119/PlazaFIja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DER/x00356119/PlazaFIja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DER/x00356119/ServicioProfesional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DER/x00356119/ServicioProfesional.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587190544353</updated>
-      <workItem from="1587190549016" duration="4885000" />
+      <workItem from="1587190549016" duration="6036000" />
     </task>
     <servers />
   </component>
@@ -76,10 +67,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1587190989203">
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1587234123765">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1587190989203" />
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1587234123765" />
     <state x="314" y="64" key="CommitChangelistDialog2" timestamp="1587227459594">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
