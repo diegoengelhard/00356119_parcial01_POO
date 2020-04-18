@@ -1,6 +1,6 @@
 package com.DER.x00356119;
 
-public class Empleado {
+abstract class Empleado {
     protected String nombre, puesto;
     protected double salario;
 
