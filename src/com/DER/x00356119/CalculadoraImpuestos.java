@@ -1,14 +1,15 @@
 package com.DER.x00356119;
 
-import java.awt.geom.AffineTransform;
 
 public class CalculadoraImpuestos {
+    // Atributos de la clase
     private static double totalRenta, totalISSS, totalAFP;
 
+    // Constructor de la clase
     private CalculadoraImpuestos() {}
 
     public static double calcularPago(Empleado unEmpleado){
-        double Renta = 0, ISSS = 0, AFP = 0, pagoEmpleado = 0, restante = 0;
+        double Renta = 0, ISSS, AFP, pagoEmpleado, restante;
 
         if(unEmpleado instanceof ServicioProfesional){
             Renta = 0.1 * unEmpleado.getSalario();
@@ -44,10 +45,10 @@ public class CalculadoraImpuestos {
     }
 
     public static String mostrarTotales() {
-        return "Datos Totales{" +
-                "totalRenta=" + totalRenta +
-                ", totalISSS=" + totalISSS +
-                ", totalAFP=" + totalAFP +
-                '}';
+        return "Datos Totales {" +
+                "totalRenta = " + totalRenta +
+                ", totalISSS = " + totalISSS +
+                ", totalAFP = " + totalAFP +
+                 '}';
     }
 }
