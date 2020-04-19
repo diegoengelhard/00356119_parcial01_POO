@@ -12,12 +12,6 @@ public class CalculadoraImpuestos {
         double Renta = 0, ISSS, AFP, pagoEmpleado, restante;
 
         if(unEmpleado instanceof ServicioProfesional){
-            Renta = 0.1 * unEmpleado.getSalario();
-            totalRenta += Renta;
-            pagoEmpleado = unEmpleado.getSalario() - Renta;
-            return pagoEmpleado;
-        }
-        else if(unEmpleado instanceof PlazaFIja){
             AFP = 0.0625 * unEmpleado.getSalario();
             totalAFP += AFP;
 
@@ -37,6 +31,13 @@ public class CalculadoraImpuestos {
 
             totalRenta += Renta;
             pagoEmpleado = restante - Renta;
+
+            return pagoEmpleado;
+        }
+        else if(unEmpleado instanceof PlazaFIja){
+            Renta = 0.1 * unEmpleado.getSalario();
+            totalRenta += Renta;
+            pagoEmpleado = unEmpleado.getSalario() - Renta;
 
             return pagoEmpleado;
         }
